@@ -49,7 +49,7 @@ class QRCode_field extends acf_Field
 		$size = isset($field['size']) ? (int) $field['size'] : 150;
 		$errorlv = apply_filters('qrcode_acf_errorlv','L');
 		
-		$format = '<img class="qrcode_acf" src="http://chart.apis.google.com/chart?chs=%1$dx%1$d&cht=qr&chld=%2$s&chl=%3$s">';
+		$format = '<img class="qrcode_acf" src="http://api.qrserver.com/v1/create-qr-code/?size=%1$dx%1$d&amp;ecc=%2$s&amp;data=%3$s">';
         $imgdata = sprintf($format, $size, $errorlv, $value);
         return $imgdata;
 	}

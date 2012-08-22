@@ -1,6 +1,6 @@
 This script is an addon of Advanced Custom Fields plugin.
 
-This addon creates a QR code, utilizing google api.
+This addon creates a QR code, utilizing http://qrserver.com/
 
 == INSTALL ==
 

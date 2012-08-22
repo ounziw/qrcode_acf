@@ -2,7 +2,7 @@
 /*
 Plugin Name: QR code for Advanced Custom Fields
 Plugin URI: 
-Description: 
+Description: This addon creates a QR code for URL.
 Version: 1.0
 Author: Fumito MIZUNO
 Author URI: http://wp.php-web.net/

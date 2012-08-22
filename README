@@ -1,0 +1,24 @@
+This script is an addon of Advanced Custom Fields plugin.
+
+This addon creates a QR code, utilizing google api.
+
+== INSTALL ==
+
+The plugin Advanced Custom Fields must be installed and activated.
+
+Download the sourcecode, then put qrcode_acf folder into your wordpress's plugins folder.
+Then activate this addon, from your wordpress's admin page.
+
+== USAGE ==
+
+You can set the size of QR code image, the default value is 150.
+
+Please enter the URL at the post.php/post-new.php
+
+
+== LICENSE ==
+GPL ver.2 or later
+
+== AUTHOR ==
+Fumito MIZUNO
+http://wp.php-web.net/

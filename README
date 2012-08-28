@@ -15,6 +15,10 @@ You can set the size of QR code image, the default value is 150.
 
 Please enter the URL at the post.php/post-new.php
 
+== UNITTEST ==
+Unit test uses PHPUnit. Using wp-unit plugin might be an easy way.
+The unit test distributed with this addon, modifies the postmeta data of post id 1 (= "Hello world" sample post). If you're using this post, do not execute the unit test.
+
 
 == LICENSE ==
 GPL ver.2 or later
